@@ -4,14 +4,15 @@ Pattern table generator from YAML.
 
 ## Installation
 
-TBD
+```
+$ curl -O https://github.com/tk-hamaguchi/combination_calc/raw/master/dist/combination_calc-latest.gem
+$ gem install combination_calc-latest.gem
+```
 
 ## Usage
 
 1. Create pattern with YAML
-
 ex. pattern.yml
-
 ``` yaml
 abc:
  - A
@@ -29,15 +30,11 @@ value:
  - 1000
  - 1000000
 ```
-
 2. Execute with YAML path
-
 ```
 $ combination_calc pattern.yml
 ```
-
 3. pattern table appears
-
 ```
 | abc | bool  |   value |
 | A   | true  |       1 |

@@ -12,7 +12,7 @@ $ gem install combination_calc-latest.gem
 ## Usage
 
 1. Create pattern with YAML(ex. pattern.yml)
- ``` yaml
+``` yaml
 abc:
  - A
  - B
@@ -28,13 +28,13 @@ value:
  - 100
  - 1000
  - 1000000
- ```
+```
 2. Execute with YAML path
- ```
+```
 $ combination_calc pattern.yml
- ```
+```
 3. pattern table appears
- ```
+```
 | abc | bool  |   value |
 | A   | true  |       1 |
 | A   | true  |      10 |
@@ -66,7 +66,7 @@ $ combination_calc pattern.yml
 | C   | false |     100 |
 | C   | false |    1000 |
 | C   | false | 1000000 |
- ```
+```
 
 ## Contributing
 
